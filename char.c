@@ -3,9 +3,12 @@
 int main(int argc, char const *argv[])
 {
     int c;
+    int numA = 0 ;
     while((c=getchar()) != EOF){
-        printf("%c",c);
+     if (c == 'A') numA++;
     }
+    printf("%d\n",numA);
+
     
 
 
