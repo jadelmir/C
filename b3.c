@@ -1,11 +1,6 @@
 #include <stdio.h>
 #include <string.h>
  int main() {
-
-   int a[100];
-
-   strcpy(a,"hello");
-   printf("%s\n",a );
    int m1 ;
    int n ;
    int n1;
@@ -13,5 +8,14 @@
 
    n1=m1&n;
    n2 = m2&n;
+
+}
+void ourStr(char *dest , const char *src){
+
+  while(*src != 0){
+    *dest = *src
+    src++;
+    dest++;
+  }
 
 }
