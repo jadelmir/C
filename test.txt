@@ -1,0 +1,11 @@
+give the decimal values of char c [10110111] 73 - 73
+                            unsigned c [10110111] 
+
+write -100 in 8 bit signed notation //start with 100 and get the bit pattern of 100 
+// 100 = [01100100]
+// -100 = [10011100]
+
+    [---------]
+
+Given x = 96 
+Find the pattern for -96
