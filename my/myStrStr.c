@@ -6,17 +6,13 @@ char *myStrStr(const char *haystack , const char *needle){
         char *what[10];
         if (*haystack == *needle) {
         strcpy(*what , haystack);
-
             while(*needle++ == *haystack++){
                 printf("WOOOOPSSSSSSS %c \n",*needle );
                 if(*needle == 0){printf("YEYYYYYY Result is %s\n" ,*what) ;
                  return *what;
-
-                
                 }
             }
         }
-        
         haystack++;
     }
 return (char *)haystack;
@@ -27,7 +23,7 @@ int main (){
     strcpy(a,"dogCat22");
     char *p = myStrStr(a,"Cat");
     // *p = 'x';
-    printf("p is %c \n and his refrence is %s",*p,p);
+    printf("p is %c \n and his reference is %s",*p,p);
     
 
 }
