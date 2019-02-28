@@ -3,8 +3,9 @@
 int count10(int n){
     int count =0 ;
     //because it's look like (11) in bits (00&11)=00 (01&&11)=01
-    int mask =2 ;
-
+    int mask =3 ;
+  // 10 
+  // 11 
   for(int i = 0; i < 31; i++)
   {
     if((n&mask)==2)count++;  
