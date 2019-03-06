@@ -7,7 +7,7 @@ typedef struct NODE{
 void prt(node_t *curr){
   while (curr!=0) {
     printf("%d\n",curr -> data );
-    curr = curr -> data;
+    curr = curr -> next;
   }
 }
 
@@ -28,6 +28,8 @@ int main (){
         //put data into the list
         nb->next =head;
         head = nb;
+        
       }
-      prt(head);
+        if (head !=0) // it is addded to skid the first element "can be removed and then remove -> next"
+      prt(head -> next );
 }
