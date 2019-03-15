@@ -15,25 +15,30 @@ int main () {
         nb -> left = 0 ;
         nb -> right = 0 ;
         // put data into the binary search tree
-        // search for the insertion location 
+        // search for the insertion location
         BST *curr = root ;
         BST *prev=0 ;
         while(curr != 0 ){
-            prev = curr; 
+            prev = curr;
             if(n > curr -> data )curr = curr -> right ;
             else curr = curr -> left ;
         }
-        // to point to prev node to the new one 
+        // to point to prev node to the new one
         if (prev == 0) root = nb ;
         else{
             if (n>prev ->data) prev ->right = nb ;
             else prev->left =nb ;
         }
-      
-        
-        
-        // now curr is where should we insert our data 
-        // insert data 
+
+
+
+        // now curr is where should we insert our data
+        // insert data
 
     }
+}
+
+int sum (BST *curr){
+  if(curr == 0)return 0
+  return sum(curr -> left)+ curr ->data + sum(curr -> left)
 }
