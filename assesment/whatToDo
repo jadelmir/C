@@ -1,0 +1,24 @@
+1. how many 0's are in the hash table 
+2. find the length of the longest linked list 
+---------------------------------------------Add to cut5.c 
+3. find the index of where the longest list occurs 
+4. find the length of the shortest list 
+5. make an array 
+        int numOfSize[54];
+    at index i, numOfSize[i] is the number of the lists of size i 
+6. The word "THE" hashes to some list in the table .
+7. find and print the longest word in the table 
+----------------------------------------------
+8. how many words did shakespear use ?
+9.how many different words did shakespear use ?
+10.how many bytes(char)
+    int count ;
+    struct BigBox *next;
+    }BigBox;
+
+    second each time a word i used increment count ;
+
+    third find the second most frequent word ;
+
+10.
+    

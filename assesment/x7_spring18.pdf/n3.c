@@ -10,7 +10,7 @@ void replace(node_t *curr){
     node_t *prev = curr ;
     curr = curr -> next;
     while (curr != 0 ) {
-      curr -> data = curr -> data - prev->data ;\
+      curr -> data = curr -> data - prev->data ;
       prev = curr;
       curr = curr -> next;
     }

@@ -2,10 +2,11 @@
 int count101(int n){
     int mask = 7;
     int count =0;
-    for(int i = 0; i < 29; i++)
+    for(int i = 0; i <= 29; i++)
   {
     if ((n&mask) == 5)count++;
     n=n>>1;
+    printf("n is %d\n",n);
   }
   return count;
 
